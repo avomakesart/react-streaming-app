@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { fetchStreams } from '../../actions';
-import { Card, Avatar, Button } from 'antd';
+import { Card, Button } from 'antd';
 import { CameraOutlined } from '@ant-design/icons';
 import { Link } from 'react-router-dom';
 

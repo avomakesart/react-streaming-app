@@ -14,7 +14,7 @@ export const StreamDelete = () => {
 
   useEffect(() => {
     fetchStream(id);
-  }, [params]);
+  }, [params, id]);
 
   const handleDelete = () => {
     return dispatch(deleteStream(id));
