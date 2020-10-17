@@ -3,7 +3,7 @@ import { Router, Route, Switch } from 'react-router-dom';
 import { AppHeader } from './AppHeader';
 import { StreamDelete } from './streams/StreamDelete';
 import StreamEdit from './streams/StreamEdit';
-import { StreamShow } from './streams/StreamShow';
+import StreamShow from './streams/StreamShow';
 import StreamCreate from './streams/StreamCreate';
 import StreamList from './streams/StreamList';
 

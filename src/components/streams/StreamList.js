@@ -37,7 +37,7 @@ class StreamList extends Component {
       >
         <Meta
           avatar={<CameraOutlined style={{ fontSize: '26px' }} />}
-          title={stream.title}
+          title={<Link to={`/streams/${stream.id}`}>{stream.title}</Link>}
           description={stream.description}
         />
       </Card>
